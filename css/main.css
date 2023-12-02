@@ -16,13 +16,8 @@
     display: none;
   }
 
-  .tamas {
-display: none;  }
-  .tamas1 {
-display: none;  }
-  .hed {
-    justify-content: center;
-  }
+
+ 
 }
 
 @media (max-width: 768px) and (min-width: 587px) {
@@ -45,12 +40,7 @@ display: none;  }
 
 
 
-  .tamas {
-    opacity: 0;
-  }
-  .hed {
-    opacity: 0;
-  }
+ 
   .woman > img {
     height: 420px;
     position: absolute;
@@ -78,15 +68,7 @@ display: none;  }
   .header {
     display: none;
   }
-  .hed {
-    opacity: 0;
-  }
-  .tamas {
-    opacity: 0;
-  }
-  .hed {
-    align-content: center;
-  }
+ 
   .woman > img {
     height: 420px;
     position: absolute;
@@ -99,17 +81,13 @@ display: none;  }
     transform: translate(0px, -30px);
     transition: all 300ms linear;
   }
-  .hed {
-    opacity: 0;
-  }
+ 
 }
 @media (max-width: 536px) and (min-width: 100px) {
   .header {
     display: none;
   }
-  .hed {
-    opacity: 0;
-  }
+ 
   .search .text {
     font-size: 13px;
     width: 95%;
@@ -124,9 +102,7 @@ display: none;  }
     font-size: 13px;
   }
 
-  .tamas {
-    opacity: 0;
-  }
+ 
 
   .saat {
     display: none;
@@ -142,10 +118,10 @@ display: none;  }
 }
 
 .submeno {
-  width: 40vh;
+  width: 27vh;
   background-color: #6d1579;
   position: fixed;
-  top: 10%;
+  top: 0;
   right: 0%;
   z-index: 999;
   display: none;
@@ -169,7 +145,7 @@ display: none;  }
   width: 100%;
   height: 50px;
   align-items: center;
-  border-bottom: 1px groove #a9a5a5;
+ 
 }
 .hed1 img {
   width: 24px;
@@ -474,13 +450,13 @@ animation: updown 3s ease infinite;
 }
 @keyframes updown {
   0% {
-    transform: translateY(-40px);
+    transform: translateY(-30px);
   }
   50% {
-    transform: translateY(40px);
+    transform: translateY(30px);
   }
   100% {
-    transform: translateY(-40px);
+    transform: translateY(-30px);
   }
 }
 
@@ -555,15 +531,19 @@ position: relative;
   padding-right: 12px;
   margin-top: 70px;
   border-right:solid 10px #CCCCCC;
+
+
+
+
+/*qr-foroter*/
+
 }
 .qrcode{
 background-color: #F0F2F5;
 }
-.qr{
-  padding: 25px 5px;
-}
+
 .enamad{
-  padding: 50px;
+ 
   cursor: pointer;
 }
 .watch{
@@ -571,9 +551,10 @@ background-color: #F0F2F5;
 }
 .clock{
   position: absolute;
-width: 510px;
-  margin-right: 32%;
-margin-top: -280px;
+
+ left: 50%;
+margin-top: -190px;
+transform: translateX(-50%)
 }
 .box{
   background-color: #9955A2;
