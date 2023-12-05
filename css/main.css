@@ -109,6 +109,23 @@
   }
 }
 
+
+
+#top{
+  width: 40px;
+  height: 40px;
+  background-color: #6d1579;
+  border-radius: 50% ;
+position: fixed;
+top: 84.7%;
+right: 15%;
+z-index: 999;
+padding-right: 11px;
+padding-top: 5px;
+cursor: pointer;
+}
+
+
 /*preeheader*/
 .sabt {
   border: unset;
